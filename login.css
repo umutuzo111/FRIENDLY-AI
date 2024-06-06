@@ -1,0 +1,126 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+::-webkit-scrollbar-button{
+    overflow: hidden;
+}
+.welcome{
+    background-image: linear-gradient(to right , rgba(147, 215, 147, 0.418),rgba(99, 163, 99, 0.418),rgba(27, 82, 27, 0.418),rgba(18, 63, 18, 0.418));
+    height: 700px;
+    width: 69%;
+    border-bottom-right-radius:100%;
+    border-top-right-radius:0;
+    margin-left: 0;
+    box-shadow: 0px 0px 12px rgba(32, 91, 32, 0.418);
+    padding: 3% 0;
+}
+body{
+    overflow: hidden;
+    background-color: rgb(238, 250, 238);
+}
+.login{
+    margin: 2% 8%;
+    margin-left: -18%;
+}
+form{
+    margin: 21% 8%;
+    background-color: rgb(235, 255, 232);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0  15px rgba(32, 91, 32, 0.418);
+    width: 96%;
+    height: auto;
+    padding: 20px;
+    display: block;
+
+}
+input{
+    background: transparent;
+    padding: 10px 20px;
+    margin: 1% 6%;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 90%;
+   border: none;
+   color: rgba(3, 34, 3, 0.418);
+
+    border-bottom: 2px solid rgba(32, 91, 32, 0.418) ;
+}
+
+#login{   
+    background-color: rgba(32, 91, 32, 0.418);
+   border: none;
+   margin: 2% 6%;
+    padding: 10px 8px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 90%;
+    color: rgba(242, 253, 241, 0.973);
+    box-shadow: 0 0 10px rgba(9, 28, 9, 0.418);
+    font-weight: bold;
+    font-size: 16;
+}
+#login:hover{
+    border: 2px solid rgba(32, 91, 32, 0.418);
+    background: none;
+    transition: .1s;
+    color: rgba(32, 91, 32, 0.418);
+}
+.welcome h1{ 
+    margin: 10% 7%;
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(3, 34, 3, 0.418);
+}
+.welcome p{
+    font-size: 20px;
+    margin: 2% 7.5%;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.973);
+}
+
+.login h1{ 
+margin-bottom: 2%;    
+font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(3, 34, 3, 0.418);
+}
+form a{
+    color:rgba(0, 53, 0, 0.418) ;
+    font-size: 16px;
+    margin: 1% 6%;
+
+}
+.login h4{
+    margin: 3% 6%;
+    color: rgba(30, 75, 29, 0.973);
+
+}
+.back{
+    background:rgba(0, 53, 0, 0.418) ;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-left: 130%;
+    color: rgba(255, 255, 255, 0.973);
+        font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px rgba(32, 91, 32, 0.418);
+
+}
+.back:hover{
+    border: 2px solid rgba(32, 91, 32, 0.418);
+    background: none;
+    transition: .1s;
+    color: rgba(32, 91, 32, 0.418);
+
+}
